@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Job Application Portal</h1>
+
+        <!-- Job Details Section -->
+        <div class="card">
+            <h2>Software Developer</h2>
+
+            <p><strong>Company:</strong> Demo Technologies Pvt Ltd</p>
+
+            <p><strong>Location:</strong> Hyderabad</p>
+
+            <p><strong>Experience:</strong> 0-2 Years</p>
+
+            <p><strong>Skills Required:</strong></p>
+
+            <ul>
+                <li>Java</li>
+                <li>AWS</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+
+            <p>
+                We are looking for enthusiastic freshers
+                with knowledge of Java and Cloud Computing.
+            </p>
+        </div>
+
+        <!-- Application Form -->
+        <div class="card">
+
+            <h2>Apply Now</h2>
+
+            <form id="jobForm">
+
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Full Name"
+                >
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Email Address"
+                >
+
+                <input
+                    type="text"
+                    id="phone"
+                    placeholder="Phone Number"
+                >
+
+                <input
+                    type="text"
+                    id="qualification"
+                    placeholder="Qualification"
+                >
+
+                <input
+                    type="text"
+                    id="experience"
+                    placeholder="Years of Experience"
+                >
+
+                <input
+                    type="text"
+                    id="skills"
+                    placeholder="Skills"
+                >
+
+                <textarea
+                    id="coverLetter"
+                    placeholder="Cover Letter"
+                ></textarea>
+
+                <button type="button" onclick="submitForm()">
+                    Apply Now
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+<script src="script.js"></script>
+<footer>
+    <p>
+        Developed by Chandini |
+        AWS Serverless Project
+    </p>
+</footer>
+
+</body>
+</html>
