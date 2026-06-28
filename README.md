@@ -50,6 +50,15 @@ Amazon CloudWatch
 - Admin Dashboard
 - Applicant Tracking System
 
+## Features
+
+- Responsive Job Application Form
+- Form Validation
+- API Gateway Integration
+- AWS Lambda Processing
+- CloudWatch Monitoring
+- Serverless Architecture
+
 ## Author
 
 Chandini Tammana
